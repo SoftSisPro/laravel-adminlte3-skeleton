@@ -14,27 +14,26 @@ Este proyecto es una aplicación Laravel que utiliza el paquete Laravel-AdminLTE
 1. Clona el repositorio:
 
     ```bash
-    git clone https://github.com/SoftSisPro/laravel-adminlte3-skeleton.git
-    cd laravel_cobrador_app
+    git clone https://github.com/SoftSisPro/laravel-adminlte3-skeleton.git project_name
+    cd project_name
+    ```
+2. Copia el archivo `.env.example` a `.env` y configura tu base de datos y otras variables de entorno:
+
+    ```bash
+    cp .env.example .env
     ```
 
-2. Instala las dependencias de PHP:
+3. Instala las dependencias de PHP:
 
     ```bash
     composer install
     ```
 
-3. Instala las dependencias de Node.js:
+4. Instala las dependencias de Node.js:
 
     ```bash
     npm install
-    npm run dev
-    ```
-
-4. Copia el archivo `.env.example` a `.env` y configura tu base de datos y otras variables de entorno:
-
-    ```bash
-    cp .env.example .env
+    npm run dev # o use build si es el caso
     ```
 
 5. Genera la clave de la aplicación:
@@ -57,7 +56,10 @@ Este proyecto es una aplicación Laravel que utiliza el paquete Laravel-AdminLTE
 
 ## Uso
 
-Accede a la aplicación en tu navegador en `http://localhost:8000`.
+- Accede a la aplicación en tu navegador en `http://localhost:8000`.
+- Accede con los siguientes datos
+    - email: test@example.com
+    - pass: password
 
 ## Créditos
 
